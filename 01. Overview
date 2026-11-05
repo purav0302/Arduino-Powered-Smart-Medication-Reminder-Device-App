@@ -1,8 +1,8 @@
-## Overview
+Overview
 
 I built an Arduino-based medication reminder system designed to help people remember to take their medicine at scheduled times. The system uses a real-time clock (RTC) module to track time and activates a buzzer and LED when it is time to take medication. Once the user presses a button, the alarm stops, and a servo motor opens the medication compartment before automatically closing it. This project allowed me to explore how electronics and automation can be used to help people manage their daily medication routines.
 
-## Components
+Components
 
 - Arduino Uno
 - DS3231 Real-Time Clock (RTC) module
@@ -14,7 +14,7 @@ I built an Arduino-based medication reminder system designed to help people reme
 - Jumper wires
 - Power supply
 
-## How It Works
+How It Works
 
 1. The RTC module continuously tracks the current time.
 2. The Arduino compares the current time with the medication reminder time programmed into the system.
@@ -23,22 +23,22 @@ I built an Arduino-based medication reminder system designed to help people reme
 5. The servo motor rotates 90 degrees to open the medication compartment.
 6. After a short delay, the servo returns to its original position, closing the compartment.
 
-## Programming
+Programming
 
 I programmed the Arduino Uno using C++ in the Arduino IDE. The code communicates with the DS3231 RTC module to track time and determine when a medication reminder should activate. I also programmed the buzzer and LED to provide alerts and used a push button to control the servo motor. Once the button is pressed, the Arduino stops the alarm, opens the compartment, and closes it after a short delay.
 
-## Testing
+Testing
 
 I tested the system by setting different medication reminder times and observing whether the buzzer and LED activated at the correct moments. I also tested the push button and servo motor to check that the alarm stopped and the medication compartment opened and closed as intended.
 
-## Future Improvements
+Future Improvements
 
 1. Add an LCD screen to display the current time and upcoming medication reminders.
 2. Develop a mobile application to allow users to set medication schedules.
 3. Add multiple medication compartments for different medicines.
 4. Include a notification system to alert caregivers when a reminder is not acknowledged.
 
-## Timeline
+Timeline
 
 I started by planning the reminder system and selecting the electronic components. Next, I connected the RTC module, buzzer, LED, button, and servo motor to the Arduino Uno. After assembling the circuit, I wrote the Arduino code to control the medication reminders and compartment movement. Finally, I tested the system and adjusted the program to improve its operation.
 
