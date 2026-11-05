@@ -1,1 +1,5 @@
-https://youtube.com/shorts/e2cafdtUbKU?feature=share
+Smart Medication Reminder Demonstration
+
+This video demonstrates my Arduino-based medication reminder system working at a scheduled time. Using a real-time clock (RTC) module, the Arduino Uno activates a buzzer and LED to remind the user to take their medication. When the user presses a button, the alarm stops, and a servo motor opens the medication compartment before automatically closing it.
+
+Demonstration Video: https://youtube.com/shorts/e2cafdtUbKU?feature=share
